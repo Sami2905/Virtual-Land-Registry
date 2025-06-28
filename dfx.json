@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "dfx": "0.27.0",
+  "canisters": {
+    "land_nft": {
+      "type": "custom",
+      "candid": "land_nft/land_nft.did",
+      "wasm": "land_nft/target/wasm32-unknown-unknown/release/land_nft.wasm",
+      "build": "cd land_nft && cargo build --target wasm32-unknown-unknown --release",
+      "metadata": [
+        {
+          "name": "candid:service",
+          "value": "land_nft/land_nft.did"
+        }
+      ]
+    }
+  }
+}

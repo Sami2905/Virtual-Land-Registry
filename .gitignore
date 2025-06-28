@@ -1,0 +1,10 @@
+node_modules/
+.dfx/
+package-lock.json
+.env
+*.wasm
+*.log
+*.tmp
+*.swp
+*.lock
+.DS_Store
