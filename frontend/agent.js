@@ -1,8 +1,5 @@
 import { HttpAgent, Actor } from "@dfinity/agent";
-import { idlFactory } from "./declarations/land_nft";
-
-// ✅ Hardcoded canister ID (your deployed one)
-const canisterId = "uxrrr-q7777-77774-qaaaq-cai";
+import { idlFactory, canisterId } from "./src/declarations/land_nft";
 
 // Toggle for local development
 const isLocal = true;

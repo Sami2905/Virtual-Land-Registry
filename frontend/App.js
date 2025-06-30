@@ -17,7 +17,7 @@ function App() {
 
     try {
       const connected = await window.ic.plug.requestConnect({
-        whitelist: ["uxrrr-q7777-77774-qaaaq-cai"], // ⛳️ Replace with your actual canister ID
+        whitelist: [process.env.CANISTER_ID_LAND_NFT], // ⛳️ Replace with your actual canister ID
       });
 
       if (connected) {
